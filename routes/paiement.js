@@ -1,9 +1,9 @@
-import express from 'express'
+const express = require('express')
 let router = express.Router();
 
-import {
+const {
   postPaiement,
-} from '../controller/paiementController.js'
+} = require('../controller/paiementController.js') 
 
 router
   .post('/', postPaiement)

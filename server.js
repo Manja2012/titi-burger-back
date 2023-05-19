@@ -1,5 +1,5 @@
-import app from './app.js'
-import {ENV} from './config/env.js'
+const app = require('./app.js') 
+const {ENV} = require('./config/env.js') 
 
 //port
 const PORT = ENV.PORT || 8080;

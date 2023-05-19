@@ -1,9 +1,9 @@
-import express from "express"
-import cors from "cors"
-import mongoose from 'mongoose'
-import products from './routes/products.js'
-import paiement from './routes/paiement.js'
-import bodyParser from 'body-parser'
+const express = require("express") 
+const cors = require("cors") 
+const mongoose = require('mongoose') 
+const products = require('./routes/products.js') 
+const paiement = require('./routes/paiement.js') 
+const bodyParser = require('body-parser') 
 
 main().catch(err => console.log(err));
 

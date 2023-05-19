@@ -1,4 +1,4 @@
-import Paiement from "../model/paiementModel.js"
+const Paiement = require("../model/paiementModel.js")
 
 const postPaiement = ((req, res, next) => {
         let paiement = new Paiement();

@@ -1,13 +1,13 @@
-import express from 'express'
+const express = require('express') 
 let router = express.Router();
-import {
+const {
   getProduct,
   getBurger,
   getAccompagnement,
   getBoisson,
   getDessert,
   getProductById
-} from '../controller/productsController.js'
+} = require('../controller/productsController.js') 
 
 router
   .get('/', getProduct)
