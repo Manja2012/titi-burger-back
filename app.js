@@ -24,4 +24,4 @@ app.use(bodyParser.json())
 app.use('/api/products', products)
 app.use('/api/paiement', paiement)
 
-export default app;
+module.exports = app;

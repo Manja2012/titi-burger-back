@@ -17,4 +17,4 @@ router
   .get('/boisson', getBoisson)
   .get('/dessert', getDessert)
 
-export default router;
+  module.exports = router;

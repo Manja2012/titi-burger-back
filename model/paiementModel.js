@@ -11,4 +11,4 @@ const PaiementSchema = new Schema({
 
 const Paiement = mongoose.model('Paiement', PaiementSchema, 'paiement');
 
-export default Paiement
+module.exports = Paiement

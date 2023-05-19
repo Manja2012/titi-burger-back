@@ -12,6 +12,6 @@ const postPaiement = ((req, res, next) => {
 })
   
 
-export {
+module.exports = {
     postPaiement
 }

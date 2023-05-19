@@ -31,7 +31,7 @@ const getProductById = (async (req, res, next) => {
     res.json(product)
 });
 
-export {
+module.exports = {
     getProduct,
     getBurger,
     getAccompagnement,
